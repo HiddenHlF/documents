@@ -1,76 +1,153 @@
-**Privacy Policy**
+# Privacy Policy & Terms of Use
 
-This privacy policy applies to the Kana Helper app (hereby referred to as "Application") for mobile devices that was created by HiddenHLF (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+**Last updated:** [FECHA]
 
-**Information Collection and Use**
+This document describes how **KanaHelper** (the “App”) collects and processes data, and the terms under which it is provided.
 
-The Application collects information when you download and use it. This information may include information such as
+---
 
-*   Your device's Internet Protocol address (e.g. IP address)
-*   The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-*   The time spent on the Application
-*   The operating system you use on your mobile device
+## 1. Description of the App
 
-The Application does not gather precise information about the location of your mobile device.
+KanaHelper is a **free, non-commercial educational application** designed to help users practice Japanese **Hiragana and Katakana** characters through handwriting exercises.
 
-The Application collects your device's location, which helps the Service Provider determine your approximate geographical location and make use of in below ways:
+The App does not require user accounts and does not provide cloud synchronization.
 
-*   Geolocation Services: The Service Provider utilizes location data to provide features such as personalized content, relevant recommendations, and location-based services.
-*   Analytics and Improvements: Aggregated and anonymized location data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application.
-*   Third-Party Services: Periodically, the Service Provider may transmit anonymized location data to external services. These services assist them in enhancing the Application and optimizing their offerings.
+---
 
-The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
+## 2. Data Collection and Processing
 
-For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information, including but not limited to App Usage Information, User handWrite inputs inside the app. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+### 2.1 Crash and Stability Data
 
-**Third Party Access**
+The App uses **Firebase Crashlytics**, a service provided by Google, to monitor application stability and diagnose technical issues.
 
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+**Data that may be collected:**
+- Anonymous or pseudonymous installation identifiers  
+- Device information (model, operating system version)  
+- Application state at the time of a crash  
+- Crash logs and stack traces  
 
-Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
+**Purpose:**  
+To detect, diagnose, and fix bugs and improve app stability.
 
-*   [Google Play Services](https://www.google.com/policies/privacy/)
-*   [Google Analytics for Firebase](https://firebase.google.com/support/privacy)
-*   [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+**Legal basis (GDPR):**  
+Legitimate interest (Article 6(1)(f)).
 
-The Service Provider may disclose User Provided and Automatically Collected Information:
+**Third party involved:**  
+Google LLC (Firebase Crashlytics).
 
-*   as required by law, such as to comply with a subpoena, or similar legal process;
-*   when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-*   with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+---
 
-**Opt-Out Rights**
+### 2.2 Handwriting Recognition (Digital Ink)
 
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+The App uses **Google ML Kit Digital Ink Recognition** to convert handwritten characters into digital text.
 
-**Data Retention Policy**
+According to Google’s current documentation, handwriting recognition is performed **entirely on the user’s device**. Handwriting input is processed locally and is **not transmitted to external servers**, stored, or used for analytics, advertising, or model training.
 
-The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at hiddenhlf@gmail.com and they will respond in a reasonable time.
+**Purpose:**  
+To provide handwriting recognition functionality requested by the user.
 
-**Children**
+**Legal basis (GDPR):**  
+Performance of the service requested by the user (Article 6(1)(b)).
 
-The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
+---
 
-The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (hiddenhlf@gmail.com) so that they will be able to take the necessary actions.
+### 2.3 Practice Data (Local Storage)
 
-**Security**
+The App stores practice history and statistics locally on the user’s device.
 
-The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+This data is **stored only on the device** and is **not transmitted** to any server.
 
-**Changes**
+---
 
-This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+## 3. Data Sharing
 
-This privacy policy is effective as of 2024-09-11
+The App does **not sell, rent, or share personal data** for advertising or marketing purposes.
 
-**Your Consent**
+Data may be processed by Google services only for:
+- App stability monitoring (Firebase Crashlytics)  
+- Handwriting recognition functionality (ML Kit)
 
-By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
+---
 
-**Contact Us**
+## 4. International Data Transfers
 
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at hiddenhlf@gmail.com.
+Google services used by the App may process data outside the European Union, including the United States. Google applies appropriate safeguards, such as **Standard Contractual Clauses**, to protect transferred data.
 
-* * *
+---
 
-This privacy policy page was generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
+## 5. User Rights
+
+### European Union (GDPR)
+
+Users have the right to:
+- Access their personal data  
+- Request correction or deletion  
+- Restrict or object to processing  
+- Request data portability  
+
+### California (CCPA/CPRA)
+
+California residents have the right to:
+- Know what personal data is collected  
+- Request deletion of personal data  
+- Opt out of the sale or sharing of personal data  
+
+The App does **not sell or share personal data** as defined by the CCPA.
+
+---
+
+## 6. Data Retention
+
+- Crash reports are retained by Firebase only as long as necessary for debugging purposes  
+- Handwriting data is processed ephemerally and not stored  
+- Local practice data remains on the device until the app is uninstalled or its data is cleared  
+
+---
+
+## 7. Children’s Privacy
+
+The App is not directed to children under the age of 13, and the developer does not knowingly collect personal data from children.
+
+---
+
+## 8. Terms of Use
+
+### 8.1 Educational Purpose
+
+The App is provided **for educational purposes only**. No guarantee is made regarding learning outcomes or accuracy.
+
+---
+
+### 8.2 No Warranty
+
+The App is provided **“as is”**, without warranties of any kind, express or implied.
+
+---
+
+### 8.3 Limitation of Liability
+
+To the maximum extent permitted by law, the developer shall not be liable for:
+- errors or inaccuracies in the App  
+- loss of locally stored data  
+- technical issues, bugs, or downtime  
+- any damages arising from the use or inability to use the App  
+
+---
+
+### 8.4 User Responsibility
+
+Users are responsible for how they use the App and any conclusions drawn from its content.
+
+---
+
+## 9. Changes to This Document
+
+This document may be updated from time to time. Continued use of the App after changes constitutes acceptance of the updated terms.
+
+---
+
+## 10. Contact
+
+For any questions regarding this document or data processing, contact:
+
+**Email:** hiddenhlf@gmail.com

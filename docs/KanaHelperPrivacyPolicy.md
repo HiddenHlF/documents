@@ -1,6 +1,6 @@
 # Privacy Policy & Terms of Use
 
-**Last updated:** [FECHA]
+**Last updated:** 2026/01/03
 
 This document describes how **KanaHelper** (the “App”) collects and processes data, and the terms under which it is provided.
 
